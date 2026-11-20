@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Require Invoice. --></help>
+    <label>Wymagana faktura</label>
+    <name>Require_Invoice__c</name>
+</CustomFieldTranslation>

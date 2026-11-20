@@ -1,0 +1,12 @@
+<messaging:emailTemplate subject="Your Order was sent" recipientType="Contact" relatedToType="Order">
+   <messaging:htmlEmailBody >
+    <html>
+        <body>
+        <p>Hello {!recipient.name}</p>
+        <p>Your order {!relatedTo.OrderNumber} was sent.</p>
+
+        <p>Best regards</p>
+        </body>
+    </html>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

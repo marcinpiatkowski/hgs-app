@@ -1,0 +1,10 @@
+Hello<br>
+
+You forgot to complete your order. <br>
+
+Your favourite products are waiting in the abandoned cart.<br>
+
+Have a nice day.
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%"> <tr><td align="center"> <table cellpadding="0" cellspacing="0" width="300" border="0" style="border-collapse: separate !important;"> <tr><td style="background-color:#56CFD2;color:#FFFFFF;font-size:14px;padding:10px 10px;border-radius:3px;font-family:Arial, Helvetica, sans-serif;text-align:center;border:solid 1px #FFFFFF"><a href="https://marpiat-dev-ed.develop.my.site.com/homegardenstore/s/cart" style="color:#FFFFFF;text-decoration:none;">Your Button Text</a></td></tr> </table></td></tr></table>

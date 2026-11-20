@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Status zatwierdzenia</label>
+    <name>Approval_Status__c</name>
+    <picklistValues>
+        <masterLabel>Accepted</masterLabel>
+        <translation>Zaakceptowany</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Approval</masterLabel>
+        <translation>Oczekuje na akceptację</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New</masterLabel>
+        <translation>Nowy</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejected</masterLabel>
+        <translation>Odrzucony</translation>
+    </picklistValues>
+</CustomFieldTranslation>

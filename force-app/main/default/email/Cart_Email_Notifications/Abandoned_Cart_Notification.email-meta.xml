@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Abandoned cart notification to customer.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Abandoned Cart Notification</name>
+    <style>none</style>
+    <subject>Unfulfilled order - Your products are missing in the abandoned cart!</subject>
+    <textOnly>Hello,
+
+You forgot to complete your order.  
+
+Your favourite products are waiting in the abandoned cart.  
+
+Have a nice day.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
