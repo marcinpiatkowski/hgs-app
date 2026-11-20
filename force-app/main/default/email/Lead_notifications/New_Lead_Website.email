@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="New lead - Website" recipientType="User" relatedToType="Lead">
+<messaging:plainTextEmailBody >
+Hello {!Recipient.Name}
+You have received new message from:
+{!relatedTo.FirstName} {!relatedTo.LastName}.
+Company: {!relatedTo.Company}
+Email: {!relatedTo.Email}
+Message: {!relatedTo.Description}
+Message has been sent through {!relatedTo.LeadSource}.
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

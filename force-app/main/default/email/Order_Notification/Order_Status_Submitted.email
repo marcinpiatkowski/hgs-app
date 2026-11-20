@@ -1,0 +1,18 @@
+<messaging:emailTemplate subject="We have received your Order" recipientType="Contact" relatedToType="Order">
+   <messaging:htmlEmailBody >
+    <html>
+        <body>
+        <p>Hello {!recipient.name}</p>
+        <p>Thank you for your Order {!relatedTo.name}</p>
+        <p>Below is the list of the items ordered:</p>
+        <apex:datatable cellpadding="5" var="item" value="{!relatedTo.OrderItems}">
+            <apex:column value="{!item.OrderItemNumber}" headerValue="Number"/>
+            <apex:column value="{!item.Product2.Name}" headerValue="Product Name"/>
+            <apex:column value="{!item.Quantity}" headerValue="Quantity" />
+            <apex:column value="{!item.TotalPrice}" headerValue="Total Net Price" />
+        </apex:datatable>
+        <p>Best regards</p>
+        </body>
+    </html>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

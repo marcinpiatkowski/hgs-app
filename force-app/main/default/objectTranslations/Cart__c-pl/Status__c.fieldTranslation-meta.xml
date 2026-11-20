@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Status zamówienia</label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Converted</masterLabel>
+        <translation>Konwertowany</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation>Szkic</translation>
+    </picklistValues>
+</CustomFieldTranslation>
